@@ -2,3 +2,6 @@ MusicGameSampleForCSharp/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877
 MusicGameSampleForCPlusPlus/Debug/
 MusicGameSampleForCSharp/obj/
 MusicGameSampleForCSharp/bin/Debug/MusicGameSampleForCSharp.exe.config
+MusicGameSampleForCSharp/bin/
+Debug/
+.vs/
