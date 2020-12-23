@@ -6,20 +6,24 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 
+	SetOutApplicationLogValidFlag(FALSE);
+
+	SetMainWindowText("C++");
+
 	ChangeWindowMode(1);
 
-	SetGraphMode(GAME_DRAW_SCREEN_WIDTH, GAME_DRAW_SCREEN_HEIGHT, 32);
-	SetWindowSize(GAME_WINDOW_WIDTH, GAME_WINDOW_HEIGHT);
+	SetGraphMode(1920, 1080, 32);
+	SetWindowSize(960, 540);
 	SetFontSize(72);
+	SetAlwaysRunFlag(TRUE);
 
-	SetOutApplicationLogValidFlag(FALSE);
 	
 	DxLib_Init();
 
 	bool isExit = false;
 
 	while (!isExit) {
-		if (ProcessMessage()) {
+		if (ProcessMessage() != 0) {
 			break;
 		}
 
