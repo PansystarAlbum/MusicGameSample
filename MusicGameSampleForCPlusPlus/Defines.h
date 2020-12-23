@@ -1,0 +1,17 @@
+#pragma once
+
+#define GAME_DRAW_SCREEN_WIDTH 1920
+#define GAME_DRAW_SCREEN_HEIGHT 1080
+
+#define GAME_DRAW_SCREEN_WIDTH_HALF (GAME_DRAW_SCREEN_WIDTH / 2)
+#define GAME_DRAW_SCREEN_HEIGHT_HALF (GAME_DRAW_SCREEN_HEIGHT / 2)
+
+#define GAME_WINDOW_WIDTH (GAME_DRAW_SCREEN_WIDTH / 2)
+#define GAME_WINDOW_HEIGHT (GAME_DRAW_SCREEN_HEIGHT / 2)
+
+
+#pragma region É}ÉNÉç
+
+#define ARRAY_LENGTH(array) (sizeof(array)/sizeof(array[0]))
+
+#pragma endregion
